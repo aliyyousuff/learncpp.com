@@ -1,8 +1,8 @@
 /*
-Question #4
+Question #5
 
-Write a function called doubleNumber() that takes one integer parameter. 
-The function should return double the value of the parameter.
+5) Write a complete program that reads an integer from the user, doubles it using the doubleNumber() 
+function you wrote in the previous quiz, and then prints the doubled value out to the console.
 
 compiler version: 10.2.0(GCC)
 */
@@ -18,6 +18,10 @@ int doubleNumber(int number)
 
 int main()
 {
-    cout << doubleNumber(100) << '\n';
+    int number_user{ };
+    cout << "Enter an integer: ";
+    std::cin >> number_user;
+
+    cout << doubleNumber(number_user) << '\n';
     return 0;
 }
