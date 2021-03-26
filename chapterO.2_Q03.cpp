@@ -5,6 +5,7 @@ Extra credit: Redo quiz #2 but don't use the test and set functions.
 #include <cstdint>
 #include <iostream>
 #include <bitset>
+#include <string>
 
 std::string rotate_left2(std::bitset<4> bits)
 {
