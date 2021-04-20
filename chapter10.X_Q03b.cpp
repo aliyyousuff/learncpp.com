@@ -1,6 +1,6 @@
 /*
 
-binary search implementation (iterative version): version 01
+binary search implementation (recursive)
 
 */
 
