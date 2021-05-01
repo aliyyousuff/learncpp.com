@@ -40,11 +40,11 @@ Thanks to reader Shiva for the suggestion and solution.
 
 int main()
 {
-  Point3d p{1.0, 2.0, 3.0};
+    Point3d p{1.0, 2.0, 3.0};
 	Vector3d v{2.0, 2.0, -3.0};
  
 	p.print();
-  v.print();
+    v.print();
   
 	p.moveByVector(v);
 	p.print();
